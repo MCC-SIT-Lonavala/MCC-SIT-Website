@@ -10,3 +10,33 @@ margin-left:20px;}
         padding:0px;
         display: inline-block;
     }
+
+   .intro{max-width:600px;
+margin:50px;
+float:left;
+}
+.grid{display: grid;
+grid-template-columns: 700px 500px;}
+.illus{width:auto;
+height:auto;}
+
+.mcclogo{height:auto;
+width:auto;}
+.card1{padding:10px;}
+.bluecard{
+    color:#f2f2f2;
+    background-color: #363062;
+}
+.about{max-width: 700px;
+margin: auto;
+padding:20px;}
+.green{color: #00994d;}
+
+
+
+
+@media screen and (max-width: 500px){
+
+.grid{grid-template-columns: 350px;}
+.intro{margin:30px;}
+}
